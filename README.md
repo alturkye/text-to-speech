@@ -31,3 +31,6 @@ if response["status"] == "success":
 	print(f"success, audio saved at: {response['file_path']}")
 else:
 	print(f"Error: {response['message']}")
+
+### UML Diagram
+![Diagram](UMLDiagram.png)
